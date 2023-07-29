@@ -1,0 +1,24 @@
+PODS:
+  - AnimatedCollectionViewLayout (1.1.0)
+  - ObjectMapper (4.2.0)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - AnimatedCollectionViewLayout
+  - ObjectMapper
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - AnimatedCollectionViewLayout
+    - ObjectMapper
+    - SnapKit
+
+SPEC CHECKSUMS:
+  AnimatedCollectionViewLayout: 0c1a38c4be115c525c887be183fc91ef65737c5d
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 8ff4f668e95229b8944e2cc68ccb15a82dcabbca
+
+COCOAPODS: 1.12.1

@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		64C5CFD42A73796500487776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5CFD32A73796500487776 /* AppDelegate.swift */; };
 		64C5CFD62A73796500487776 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5CFD52A73796500487776 /* SceneDelegate.swift */; };
-		64C5CFD82A73796500487776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5CFD72A73796500487776 /* ViewController.swift */; };
 		64C5CFDB2A73796500487776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C5CFD92A73796500487776 /* Main.storyboard */; };
 		64C5CFDD2A73796500487776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C5CFDC2A73796500487776 /* Assets.xcassets */; };
 		64C5CFE02A73796500487776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C5CFDE2A73796500487776 /* LaunchScreen.storyboard */; };
+		64C5CFEF2A7383D600487776 /* PHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5CFEE2A7383D600487776 /* PHomeViewController.swift */; };
+		64C5CFF12A7384C300487776 /* PCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5CFF02A7384C300487776 /* PCommon.swift */; };
+		64C5CFF32A73850200487776 /* PToolsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5CFF22A73850200487776 /* PToolsManager.swift */; };
+		64C5CFF82A7399F100487776 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64C5CFF72A7399F100487776 /* rain.mp3 */; };
+		64C5CFFA2A739B1F00487776 /* stream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64C5CFF92A739B1F00487776 /* stream.mp3 */; };
+		64C5CFFC2A739C8F00487776 /* wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64C5CFFB2A739C8F00487776 /* wind.mp3 */; };
+		64C5CFFE2A73AF3900487776 /* PMeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5CFFD2A73AF3900487776 /* PMeditationViewController.swift */; };
+		64C5D0002A73DF9500487776 /* PBaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5CFFF2A73DF9500487776 /* PBaseNavigationView.swift */; };
+		64C5D0022A74D06C00487776 /* PPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D0012A74D06C00487776 /* PPrivacyViewController.swift */; };
+		64D471E02A74E1A000831E5F /* wave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D471DF2A74E1A000831E5F /* wave.mp3 */; };
+		64D471E22A74E94600831E5F /* insect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D471E12A74E94600831E5F /* insect.mp3 */; };
+		64D471E42A74EE7D00831E5F /* ethereal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D471E32A74EE7D00831E5F /* ethereal.mp3 */; };
+		765A0E25397AB10CB4314135 /* Pods_Placidity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3609EE3100B41359B345CD83 /* Pods_Placidity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		64C5CFD02A73796500487776 /* Placidity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Placidity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3609EE3100B41359B345CD83 /* Pods_Placidity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Placidity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		575CAD41D2368B28BC7B9ED3 /* Pods-Placidity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Placidity.release.xcconfig"; path = "Target Support Files/Pods-Placidity/Pods-Placidity.release.xcconfig"; sourceTree = "<group>"; };
+		64C5CFD02A73796500487776 /* PlacidityMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlacidityMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C5CFD32A73796500487776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64C5CFD52A73796500487776 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		64C5CFD72A73796500487776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64C5CFDA2A73796500487776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64C5CFDC2A73796500487776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64C5CFDF2A73796500487776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64C5CFE12A73796500487776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C5CFEE2A7383D600487776 /* PHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHomeViewController.swift; sourceTree = "<group>"; };
+		64C5CFF02A7384C300487776 /* PCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCommon.swift; sourceTree = "<group>"; };
+		64C5CFF22A73850200487776 /* PToolsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PToolsManager.swift; sourceTree = "<group>"; };
+		64C5CFF72A7399F100487776 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		64C5CFF92A739B1F00487776 /* stream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stream.mp3; sourceTree = "<group>"; };
+		64C5CFFB2A739C8F00487776 /* wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wind.mp3; sourceTree = "<group>"; };
+		64C5CFFD2A73AF3900487776 /* PMeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMeditationViewController.swift; sourceTree = "<group>"; };
+		64C5CFFF2A73DF9500487776 /* PBaseNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBaseNavigationView.swift; sourceTree = "<group>"; };
+		64C5D0012A74D06C00487776 /* PPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPrivacyViewController.swift; sourceTree = "<group>"; };
+		64D471DF2A74E1A000831E5F /* wave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wave.mp3; sourceTree = "<group>"; };
+		64D471E12A74E94600831E5F /* insect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = insect.mp3; sourceTree = "<group>"; };
+		64D471E32A74EE7D00831E5F /* ethereal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ethereal.mp3; sourceTree = "<group>"; };
+		B5B70074B4E89BBE07A4D697 /* Pods-Placidity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Placidity.debug.xcconfig"; path = "Target Support Files/Pods-Placidity/Pods-Placidity.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765A0E25397AB10CB4314135 /* Pods_Placidity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,13 +69,15 @@
 			children = (
 				64C5CFD22A73796500487776 /* Placidity */,
 				64C5CFD12A73796500487776 /* Products */,
+				C465133408A20990E180A3D3 /* Pods */,
+				7764EB02E4773C1F9BD923A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		64C5CFD12A73796500487776 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				64C5CFD02A73796500487776 /* Placidity.app */,
+				64C5CFD02A73796500487776 /* PlacidityMind.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +85,67 @@
 		64C5CFD22A73796500487776 /* Placidity */ = {
 			isa = PBXGroup;
 			children = (
+				64C5CFE92A73825C00487776 /* PBase */,
+				64C5CFE82A73824A00487776 /* PHome */,
+				64C5CFE72A73808200487776 /* SupporttingFiles */,
+			);
+			path = Placidity;
+			sourceTree = "<group>";
+		};
+		64C5CFE72A73808200487776 /* SupporttingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				64C5CFD32A73796500487776 /* AppDelegate.swift */,
 				64C5CFD52A73796500487776 /* SceneDelegate.swift */,
-				64C5CFD72A73796500487776 /* ViewController.swift */,
+				64C5CFF22A73850200487776 /* PToolsManager.swift */,
+				64C5CFF02A7384C300487776 /* PCommon.swift */,
 				64C5CFD92A73796500487776 /* Main.storyboard */,
 				64C5CFDC2A73796500487776 /* Assets.xcassets */,
+				64D471E32A74EE7D00831E5F /* ethereal.mp3 */,
+				64D471E12A74E94600831E5F /* insect.mp3 */,
+				64C5CFFB2A739C8F00487776 /* wind.mp3 */,
+				64C5CFF92A739B1F00487776 /* stream.mp3 */,
+				64C5CFF72A7399F100487776 /* rain.mp3 */,
+				64D471DF2A74E1A000831E5F /* wave.mp3 */,
 				64C5CFDE2A73796500487776 /* LaunchScreen.storyboard */,
 				64C5CFE12A73796500487776 /* Info.plist */,
 			);
-			path = Placidity;
+			path = SupporttingFiles;
+			sourceTree = "<group>";
+		};
+		64C5CFE82A73824A00487776 /* PHome */ = {
+			isa = PBXGroup;
+			children = (
+				64C5CFEE2A7383D600487776 /* PHomeViewController.swift */,
+				64C5CFFD2A73AF3900487776 /* PMeditationViewController.swift */,
+				64C5D0012A74D06C00487776 /* PPrivacyViewController.swift */,
+			);
+			path = PHome;
+			sourceTree = "<group>";
+		};
+		64C5CFE92A73825C00487776 /* PBase */ = {
+			isa = PBXGroup;
+			children = (
+				64C5CFFF2A73DF9500487776 /* PBaseNavigationView.swift */,
+			);
+			path = PBase;
+			sourceTree = "<group>";
+		};
+		7764EB02E4773C1F9BD923A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3609EE3100B41359B345CD83 /* Pods_Placidity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C465133408A20990E180A3D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5B70074B4E89BBE07A4D697 /* Pods-Placidity.debug.xcconfig */,
+				575CAD41D2368B28BC7B9ED3 /* Pods-Placidity.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64C5CFE42A73796500487776 /* Build configuration list for PBXNativeTarget "Placidity" */;
 			buildPhases = (
+				ED1E59610E849B8DB1558326 /* [CP] Check Pods Manifest.lock */,
 				64C5CFCC2A73796500487776 /* Sources */,
 				64C5CFCD2A73796500487776 /* Frameworks */,
 				64C5CFCE2A73796500487776 /* Resources */,
+				065F55434CD5CC5E84A358D1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +167,7 @@
 			);
 			name = Placidity;
 			productName = Placidity;
-			productReference = 64C5CFD02A73796500487776 /* Placidity.app */;
+			productReference = 64C5CFD02A73796500487776 /* PlacidityMind.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,22 +208,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C5CFF82A7399F100487776 /* rain.mp3 in Resources */,
 				64C5CFE02A73796500487776 /* LaunchScreen.storyboard in Resources */,
+				64C5CFFC2A739C8F00487776 /* wind.mp3 in Resources */,
+				64D471E42A74EE7D00831E5F /* ethereal.mp3 in Resources */,
 				64C5CFDD2A73796500487776 /* Assets.xcassets in Resources */,
+				64C5CFFA2A739B1F00487776 /* stream.mp3 in Resources */,
 				64C5CFDB2A73796500487776 /* Main.storyboard in Resources */,
+				64D471E22A74E94600831E5F /* insect.mp3 in Resources */,
+				64D471E02A74E1A000831E5F /* wave.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		065F55434CD5CC5E84A358D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Placidity/Pods-Placidity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Placidity/Pods-Placidity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Placidity/Pods-Placidity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED1E59610E849B8DB1558326 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Placidity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		64C5CFCC2A73796500487776 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64C5CFD82A73796500487776 /* ViewController.swift in Sources */,
 				64C5CFD42A73796500487776 /* AppDelegate.swift in Sources */,
+				64C5D0002A73DF9500487776 /* PBaseNavigationView.swift in Sources */,
+				64C5D0022A74D06C00487776 /* PPrivacyViewController.swift in Sources */,
 				64C5CFD62A73796500487776 /* SceneDelegate.swift in Sources */,
+				64C5CFEF2A7383D600487776 /* PHomeViewController.swift in Sources */,
+				64C5CFFE2A73AF3900487776 /* PMeditationViewController.swift in Sources */,
+				64C5CFF12A7384C300487776 /* PCommon.swift in Sources */,
+				64C5CFF32A73850200487776 /* PToolsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +418,7 @@
 		};
 		64C5CFE52A73796500487776 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5B70074B4E89BBE07A4D697 /* Pods-Placidity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,7 +426,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2S3TYJ9383;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Placidity/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Placidity/SupporttingFiles/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PlacidityMind;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,7 +440,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.Placidity;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PlacidityMind;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -314,6 +452,7 @@
 		};
 		64C5CFE62A73796500487776 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575CAD41D2368B28BC7B9ED3 /* Pods-Placidity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,7 +460,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2S3TYJ9383;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Placidity/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Placidity/SupporttingFiles/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PlacidityMind;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +474,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmx.Placidity;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PlacidityMind;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
