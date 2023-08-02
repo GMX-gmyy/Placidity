@@ -42,9 +42,18 @@ class PHomeViewController: UIViewController {
     private var dataSource: [HomeType] = [.rain, .wind, .stream, .wave, .insect, .ethereal]
     private var currentIndex = 0
     
-    private lazy var naviView: PBaseNavigationView = {
-        let view = PBaseNavigationView()
-        return view
+//    private lazy var privateButton: UIButton = {
+//        let button = UIButton()
+//        button.setBackgroundImage(UIImage(named: "yinsibaohu"), for: .normal)
+//        button.addTarget(self, action: #selector(privacyEvent), for: .touchUpInside)
+//        return button
+//    }()
+    
+    private lazy var privateImageView: UIImageView = {
+        let imageView = UIImageView(image: UIImage(named: "yinsibaohu"))
+        imageView.contentMode = .scaleAspectFill
+        imageView.isUserInteractionEnabled = true
+        return imageView
     }()
 
     private lazy var bgImageView: UIImageView = {
@@ -105,6 +114,19 @@ class PHomeViewController: UIViewController {
         return button
     }()
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        navigationController?.navigationBar.isHidden = true
+        navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.navigationBar.isHidden = false
+        navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -113,39 +135,29 @@ class PHomeViewController: UIViewController {
     
     private func setupUI() {
         
-        view.addSubview(naviView)
-        naviView.snp.makeConstraints { make in
-            make.top.equalTo(kTopSafeHeight)
-            make.left.right.equalToSuperview()
-            make.height.equalTo(kNavigationBarHeight)
-        }
-        
-        naviView.naviBack.isHidden = true
-        naviView.naviRight.setImage(UIImage(named: "yinsibaohu"), for: .normal)
-        
-        naviView.rightBlock = { [weak self] in
-            let vc = PPrivacyViewController()
-            self?.navigationController?.pushViewController(vc, animated: true)
-        }
-        
         view.addSubview(bgImageView)
         bgImageView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }
         
-        bgImageView.addSubview(naviView)
-        naviView.snp.makeConstraints { make in
-            make.top.equalTo(kTopSafeHeight)
-            make.left.right.equalToSuperview()
-            make.height.equalTo(kNavigationBarHeight)
+//        bgImageView.addSubview(privateButton)
+//        privateButton.snp.makeConstraints { make in
+//            make.left.equalTo(24)
+//            make.top.equalTo(kTopSafeHeight + 35)
+//            make.width.height.equalTo(24)
+//        }
+        
+        let privateTap = UITapGestureRecognizer(target: self, action: #selector(privacyEvent))
+        privateImageView.addGestureRecognizer(privateTap)
+        
+        view.addSubview(privateImageView)
+        privateImageView.snp.makeConstraints { make in
+            make.left.equalTo(24)
+            make.top.equalTo(kTopSafeHeight + 40)
+            make.width.height.equalTo(24)
         }
         
-        naviView.naviRight.setImage(UIImage(named: "yinsibaohu"), for: .normal)
-        
-        naviView.rightBlock = { [weak self] in
-            let vc = PPrivacyViewController()
-            self?.navigationController?.pushViewController(vc, animated: true)
-        }
+        view.bringSubviewToFront(privateImageView)
         
         view.addSubview(meditationButton)
         meditationButton.snp.makeConstraints { make in
@@ -185,6 +197,11 @@ class PHomeViewController: UIViewController {
         vc.type = dataSource[currentIndex]
         vc.modalPresentationStyle = .overFullScreen
         self.navigationController?.present(vc, animated: true)
+    }
+    
+    @objc func privacyEvent() {
+        let vc = PPrivacyViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 

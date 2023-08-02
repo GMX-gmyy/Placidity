@@ -19,7 +19,6 @@
 		64C5CFFA2A739B1F00487776 /* stream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64C5CFF92A739B1F00487776 /* stream.mp3 */; };
 		64C5CFFC2A739C8F00487776 /* wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64C5CFFB2A739C8F00487776 /* wind.mp3 */; };
 		64C5CFFE2A73AF3900487776 /* PMeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5CFFD2A73AF3900487776 /* PMeditationViewController.swift */; };
-		64C5D0002A73DF9500487776 /* PBaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5CFFF2A73DF9500487776 /* PBaseNavigationView.swift */; };
 		64C5D0022A74D06C00487776 /* PPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5D0012A74D06C00487776 /* PPrivacyViewController.swift */; };
 		64D471E02A74E1A000831E5F /* wave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D471DF2A74E1A000831E5F /* wave.mp3 */; };
 		64D471E22A74E94600831E5F /* insect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 64D471E12A74E94600831E5F /* insect.mp3 */; };
@@ -44,7 +43,6 @@
 		64C5CFF92A739B1F00487776 /* stream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stream.mp3; sourceTree = "<group>"; };
 		64C5CFFB2A739C8F00487776 /* wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wind.mp3; sourceTree = "<group>"; };
 		64C5CFFD2A73AF3900487776 /* PMeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMeditationViewController.swift; sourceTree = "<group>"; };
-		64C5CFFF2A73DF9500487776 /* PBaseNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBaseNavigationView.swift; sourceTree = "<group>"; };
 		64C5D0012A74D06C00487776 /* PPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPrivacyViewController.swift; sourceTree = "<group>"; };
 		64D471DF2A74E1A000831E5F /* wave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wave.mp3; sourceTree = "<group>"; };
 		64D471E12A74E94600831E5F /* insect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = insect.mp3; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 		64C5CFD22A73796500487776 /* Placidity */ = {
 			isa = PBXGroup;
 			children = (
-				64C5CFE92A73825C00487776 /* PBase */,
 				64C5CFE82A73824A00487776 /* PHome */,
 				64C5CFE72A73808200487776 /* SupporttingFiles */,
 			);
@@ -121,14 +118,6 @@
 				64C5D0012A74D06C00487776 /* PPrivacyViewController.swift */,
 			);
 			path = PHome;
-			sourceTree = "<group>";
-		};
-		64C5CFE92A73825C00487776 /* PBase */ = {
-			isa = PBXGroup;
-			children = (
-				64C5CFFF2A73DF9500487776 /* PBaseNavigationView.swift */,
-			);
-			path = PBase;
 			sourceTree = "<group>";
 		};
 		7764EB02E4773C1F9BD923A3 /* Frameworks */ = {
@@ -270,7 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				64C5CFD42A73796500487776 /* AppDelegate.swift in Sources */,
-				64C5D0002A73DF9500487776 /* PBaseNavigationView.swift in Sources */,
 				64C5D0022A74D06C00487776 /* PPrivacyViewController.swift in Sources */,
 				64C5CFD62A73796500487776 /* SceneDelegate.swift in Sources */,
 				64C5CFEF2A7383D600487776 /* PHomeViewController.swift in Sources */,

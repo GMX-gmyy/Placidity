@@ -16,9 +16,11 @@ class PMeditationViewController: UIViewController {
     private var playerItem: AVPlayerItem?
     private var timeObserval: Any?
     
-    public lazy var naviView: PBaseNavigationView = {
-        let view = PBaseNavigationView()
-        return view
+    private lazy var backButton: UIButton = {
+        let button = UIButton(type: .custom)
+        button.setImage(UIImage(named: "back"), for: .normal)
+        button.addTarget(self, action: #selector(meditationBack), for: .touchUpInside)
+        return button
     }()
     
     private lazy var bgImageView: UIImageView = {
@@ -102,21 +104,16 @@ class PMeditationViewController: UIViewController {
     
     private func setupUI() {
         
-        view.addSubview(naviView)
-        naviView.snp.makeConstraints { make in
-            make.top.equalTo(kTopSafeHeight)
-            make.left.right.equalToSuperview()
-            make.height.equalTo(kNavigationBarHeight)
-        }
-        naviView.backBlock = { [weak self] in
-            self?.removePlayerObserval()
-            self?.pause()
-            self?.dismiss(animated: true)
-        }
-        
         view.addSubview(bgImageView)
         bgImageView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
+        }
+        
+        bgImageView.addSubview(backButton)
+        backButton.snp.makeConstraints { make in
+            make.top.equalTo(kTopSafeHeight + 40)
+            make.left.equalTo(24)
+            make.width.height.equalTo(24)
         }
         
         view.addSubview(bottomView)
@@ -154,8 +151,6 @@ class PMeditationViewController: UIViewController {
             make.width.height.equalTo(36)
             make.centerX.equalToSuperview()
         }
-        
-        view.bringSubviewToFront(naviView)
     }
     
     private func setupPlayer() {
@@ -218,6 +213,10 @@ class PMeditationViewController: UIViewController {
         } else {
             pause()
         }
+    }
+    
+    @objc func meditationBack() {
+        self.dismiss(animated: true)
     }
     
     @objc func sliderChanged(slider: UISlider) {

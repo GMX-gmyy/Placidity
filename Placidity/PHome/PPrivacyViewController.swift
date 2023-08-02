@@ -10,9 +10,11 @@ import UIKit
 
 class PPrivacyViewController: UIViewController {
     
-    private lazy var naviView: PBaseNavigationView = {
-        let view = PBaseNavigationView()
-        return view
+    private lazy var backButton: UIButton = {
+        let button = UIButton()
+        button.setImage(UIImage(named: "back"), for: .normal)
+        button.addTarget(self, action: #selector(backEvent), for: .touchUpInside)
+        return button
     }()
     
     private lazy var policyScrollView: UIScrollView = {
@@ -907,14 +909,11 @@ class PPrivacyViewController: UIViewController {
     private func setupUI() {
         view.backgroundColor = kColor(r: 207, g: 190, b: 244)
         
-        view.addSubview(naviView)
-        naviView.snp.makeConstraints { make in
-            make.top.equalTo(kTopSafeHeight)
-            make.left.right.equalToSuperview()
-            make.height.equalTo(kNavigationBarHeight)
-        }
-        naviView.backBlock = { [weak self] in
-            self?.navigationController?.popViewController(animated: true)
+        view.addSubview(backButton)
+        backButton.snp.makeConstraints { make in
+            make.top.equalTo(kTopSafeHeight + 40)
+            make.left.equalTo(24)
+            make.width.height.equalTo(24)
         }
         
         view.addSubview(policyScrollView)
@@ -1526,5 +1525,9 @@ class PPrivacyViewController: UIViewController {
             make.width.equalTo(pScreenWidth - 32)
             make.left.equalToSuperview()
         }
+    }
+    
+    @objc func backEvent() {
+        self.navigationController?.popViewController(animated: true)
     }
 }

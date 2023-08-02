@@ -1,0 +1,290 @@
+2023-08-01 12:10:28 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x322dd3400; archive(resolved)="<IDEArchive: 0x600029f989c0>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAdHoc: 0x60001b820ef0>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x6000024b6200; teamID='2S3TYJ9383', teamName='Gong MengXiang', teamType='Individual', username='1315974868@qq.com', isFreeProvisioningTeam='0'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x322dd3400; archive = "<IDEArchive: 0x600029f989c0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60001b820ef0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000024b6200; teamID='2S3TYJ9383', teamName='Gong MengXiang', teamType='Individual', username='1315974868@qq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x2ad7d6370; archive = "<IDEArchive: 0x600029f989c0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60001b820ef0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000024b6200; teamID='2S3TYJ9383', teamName='Gong MengXiang', teamType='Individual', username='1315974868@qq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x328c120f0; archive = "<IDEArchive: 0x600029f989c0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60001b820ef0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000024b6200; teamID='2S3TYJ9383', teamName='Gong MengXiang', teamType='Individual', username='1315974868@qq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x322bad4b0; archive = "<IDEArchive: 0x600029f989c0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60001b820ef0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000024b6200; teamID='2S3TYJ9383', teamName='Gong MengXiang', teamType='Individual', username='1315974868@qq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2ac9c1cc0; archive = "<IDEArchive: 0x600029f989c0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60001b820ef0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000024b6200; teamID='2S3TYJ9383', teamName='Gong MengXiang', teamType='Individual', username='1315974868@qq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2ac98cc40; archive = "<IDEArchive: 0x600029f989c0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60001b820ef0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000024b6200; teamID='2S3TYJ9383', teamName='Gong MengXiang', teamType='Individual', username='1315974868@qq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x322b864a0; archive = "<IDEArchive: 0x600029f989c0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60001b820ef0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000024b6200; teamID='2S3TYJ9383', teamName='Gong MengXiang', teamType='Individual', username='1315974868@qq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x322b453c0; archive = "<IDEArchive: 0x600029f989c0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60001b820ef0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000024b6200; teamID='2S3TYJ9383', teamName='Gong MengXiang', teamType='Individual', username='1315974868@qq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x328deaa60; archive = "<IDEArchive: 0x600029f989c0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60001b820ef0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x6000024b6200; teamID='2S3TYJ9383', teamName='Gong MengXiang', teamType='Individual', username='1315974868@qq.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x3448f30e0; archive = "<IDEArchive: 0x600029f989c0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60001b820ef0>", team="(null)">
+	<IDEDistributionContext: 0x2ac98f200; archive = "<IDEArchive: 0x600029f989c0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60001b820ef0>", team="(null)">
+	<IDEDistributionContext: 0x2ac9f9610; archive = "<IDEArchive: 0x600029f989c0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60001b820ef0>", team="(null)">
+	<IDEDistributionContext: 0x346ad1090; archive = "<IDEArchive: 0x600029f989c0>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x60001b820ef0>", team="(null)">
+	<IDEDistributionContext: 0x34487fb40; archive = "<IDEArchive: 0x600029f989c0>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x322dd3400>
+2023-08-01 12:10:28 +0000  Processing step: IDEDistributionCreateDestRootStep
+2023-08-01 12:10:28 +0000  Processing step: IDEDistributionCopyItemStep
+2023-08-01 12:10:28 +0000  Running /usr/bin/ditto '-V' '/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app' '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app'
+2023-08-01 12:10:28 +0000  >>> Copying /Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app 
+2023-08-01 12:10:28 +0000  copying file ./_CodeSignature/CodeResources ... 
+2023-08-01 12:10:28 +0000  7311 bytes for ./_CodeSignature/CodeResources
+2023-08-01 12:10:28 +0000  copying file ./AppIcon60x60@2x.png ... 
+2023-08-01 12:10:28 +0000  3563 bytes for ./AppIcon60x60@2x.png
+2023-08-01 12:10:28 +0000  copying file ./Breath ... 
+2023-08-01 12:10:28 +0000  241360 bytes for ./Breath
+2023-08-01 12:10:28 +0000  copying file ./breath.mp3 ... 
+2023-08-01 12:10:28 +0000  3487077 bytes for ./breath.mp3
+2023-08-01 12:10:28 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2023-08-01 12:10:28 +0000  929 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2023-08-01 12:10:28 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2023-08-01 12:10:28 +0000  1197 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2023-08-01 12:10:28 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2023-08-01 12:10:28 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2023-08-01 12:10:28 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2023-08-01 12:10:28 +0000  2515 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2023-08-01 12:10:28 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2023-08-01 12:10:28 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2023-08-01 12:10:28 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2023-08-01 12:10:28 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2023-08-01 12:10:28 +0000  copying file ./Assets.car ... 
+2023-08-01 12:10:28 +0000  36939007 bytes for ./Assets.car
+copying file ./AppIcon76x76@2x~ipad.png ... 
+2023-08-01 12:10:28 +0000  4736 bytes for ./AppIcon76x76@2x~ipad.png
+2023-08-01 12:10:28 +0000  copying file ./Frameworks/SnapKit.framework/_CodeSignature/CodeResources ... 
+2023-08-01 12:10:28 +0000  1798 bytes for ./Frameworks/SnapKit.framework/_CodeSignature/CodeResources
+2023-08-01 12:10:28 +0000  copying file ./Frameworks/SnapKit.framework/SnapKit ... 
+2023-08-01 12:10:28 +0000  399312 bytes for ./Frameworks/SnapKit.framework/SnapKit
+copying file ./Frameworks/SnapKit.framework/Info.plist ... 
+2023-08-01 12:10:28 +0000  784 bytes for ./Frameworks/SnapKit.framework/Info.plist
+2023-08-01 12:10:28 +0000  copying file ./Frameworks/ObjectMapper.framework/_CodeSignature/CodeResources ... 
+2023-08-01 12:10:28 +0000  1798 bytes for ./Frameworks/ObjectMapper.framework/_CodeSignature/CodeResources
+2023-08-01 12:10:28 +0000  copying file ./Frameworks/ObjectMapper.framework/ObjectMapper ... 
+2023-08-01 12:10:28 +0000  484128 bytes for ./Frameworks/ObjectMapper.framework/ObjectMapper
+2023-08-01 12:10:28 +0000  copying file ./Frameworks/ObjectMapper.framework/Info.plist ... 
+2023-08-01 12:10:28 +0000  793 bytes for ./Frameworks/ObjectMapper.framework/Info.plist
+2023-08-01 12:10:28 +0000  copying file ./Frameworks/JKCategories.framework/_CodeSignature/CodeResources ... 
+2023-08-01 12:10:28 +0000  1798 bytes for ./Frameworks/JKCategories.framework/_CodeSignature/CodeResources
+2023-08-01 12:10:28 +0000  copying file ./Frameworks/JKCategories.framework/JKCategories ... 
+2023-08-01 12:10:28 +0000  1337328 bytes for ./Frameworks/JKCategories.framework/JKCategories
+2023-08-01 12:10:28 +0000  copying file ./Frameworks/JKCategories.framework/Info.plist ... 
+2023-08-01 12:10:28 +0000  793 bytes for ./Frameworks/JKCategories.framework/Info.plist
+2023-08-01 12:10:28 +0000  copying file ./embedded.mobileprovision ... 
+2023-08-01 12:10:28 +0000  12281 bytes for ./embedded.mobileprovision
+2023-08-01 12:10:28 +0000  copying file ./Info.plist ... 
+2023-08-01 12:10:28 +0000  1501 bytes for ./Info.plist
+2023-08-01 12:10:28 +0000  copying file ./PkgInfo ... 
+2023-08-01 12:10:28 +0000  8 bytes for ./PkgInfo
+2023-08-01 12:10:28 +0000  /usr/bin/ditto exited with 0
+2023-08-01 12:10:28 +0000  Processing step: IDEDistributionEmbedProfileStep
+2023-08-01 12:10:28 +0000  Skipping profile for item: <IDEDistributionItem: 0x600019031a40; bundleID='org.cocoapods.JKCategories', path='<DVTFilePath:0x60003111ad10:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/JKCategories.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045af0550; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4d1e0; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.JKCategories', executablePath='<DVTFilePath:0x600029186300:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/JKCategories.framework/JKCategories'>', hardenedRuntime='0'>'>
+2023-08-01 12:10:28 +0000  Skipping profile for item: <IDEDistributionItem: 0x60001505dfe0; bundleID='org.cocoapods.ObjectMapper', path='<DVTFilePath:0x60003111ba30:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/ObjectMapper.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045b8de50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4d1e0; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.ObjectMapper', executablePath='<DVTFilePath:0x600029181b20:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/ObjectMapper.framework/ObjectMapper'>', hardenedRuntime='0'>'>
+2023-08-01 12:10:28 +0000  Skipping profile for item: <IDEDistributionItem: 0x600029f24ea0; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x600031110c40:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045b8f340; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4d1e0; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x6000190337e0:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'>
+2023-08-01 12:10:28 +0000  Processing step: IDEDistributionInfoPlistStep
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-08-01 12:10:28 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2023-08-01 12:10:28 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2023-08-01 12:10:28 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2023-08-01 12:10:28 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-08-01 12:10:28 +0000  Processing step: IDEDistributionSymbolsStep
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-08-01 12:10:28 +0000  Processing step: IDEDistributionAppThinningStep
+2023-08-01 12:10:28 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2023-08-01 12:10:28 +0000  Processing step: IDEDistributionArchThinningStep
+2023-08-01 12:10:28 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/JKCategories.framework/JKCategories' '-verify_arch' 'arm64e'
+2023-08-01 12:10:28 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-08-01 12:10:28 +0000  Skipping architecture thinning for item "JKCategories" because arch "arm64e" wasn't found
+2023-08-01 12:10:28 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/ObjectMapper.framework/ObjectMapper' '-verify_arch' 'arm64e'
+2023-08-01 12:10:28 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-08-01 12:10:28 +0000  Skipping architecture thinning for item "ObjectMapper" because arch "arm64e" wasn't found
+2023-08-01 12:10:29 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/SnapKit.framework/SnapKit' '-verify_arch' 'arm64e'
+2023-08-01 12:10:29 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-08-01 12:10:29 +0000  Skipping architecture thinning for item "SnapKit" because arch "arm64e" wasn't found
+2023-08-01 12:10:29 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Breath' '-verify_arch' 'arm64e'
+2023-08-01 12:10:29 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-08-01 12:10:29 +0000  Skipping architecture thinning for item "Breath" because arch "arm64e" wasn't found
+2023-08-01 12:10:29 +0000  Processing step: IDEDistributionODRStep
+2023-08-01 12:10:29 +0000  Processing step: IDEDistributionStripXattrsStep
+2023-08-01 12:10:29 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600019031a40; bundleID='org.cocoapods.JKCategories', path='<DVTFilePath:0x60003111ad10:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/JKCategories.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045af0550; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4f910; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.JKCategories', executablePath='<DVTFilePath:0x600029186300:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/JKCategories.framework/JKCategories'>', hardenedRuntime='0'>'>
+2023-08-01 12:10:29 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x60001505dfe0; bundleID='org.cocoapods.ObjectMapper', path='<DVTFilePath:0x60003111ba30:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/ObjectMapper.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045b8de50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4f910; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.ObjectMapper', executablePath='<DVTFilePath:0x600029181b20:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/ObjectMapper.framework/ObjectMapper'>', hardenedRuntime='0'>'>
+2023-08-01 12:10:29 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x600029f24ea0; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x600031110c40:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045b8f340; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4f910; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x6000190337e0:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'>
+2023-08-01 12:10:29 +0000  Running /usr/bin/xattr '-crs' '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app'
+2023-08-01 12:10:29 +0000  /usr/bin/xattr exited with 0
+2023-08-01 12:10:29 +0000  Processing step: IDEDistributionCodesignStep
+2023-08-01 12:10:29 +0000  Entitlements for <IDEDistributionItem: 0x600019031a40; bundleID='org.cocoapods.JKCategories', path='<DVTFilePath:0x60003111ad10:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/JKCategories.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045af0550; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4ef70; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.JKCategories', executablePath='<DVTFilePath:0x600029186300:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/JKCategories.framework/JKCategories'>', hardenedRuntime='0'>'>: {
+}
+2023-08-01 12:10:29 +0000  Entitlements for <IDEDistributionItem: 0x600019031a40; bundleID='org.cocoapods.JKCategories', path='<DVTFilePath:0x60003111ad10:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/JKCategories.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045af0550; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4cdc0; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.JKCategories', executablePath='<DVTFilePath:0x600029186300:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/JKCategories.framework/JKCategories'>', hardenedRuntime='0'>'> are: {
+}
+2023-08-01 12:10:29 +0000  Writing entitlements for <IDEDistributionItem: 0x600019031a40; bundleID='org.cocoapods.JKCategories', path='<DVTFilePath:0x60003111ad10:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/JKCategories.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045af0550; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4d290; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.JKCategories', executablePath='<DVTFilePath:0x600029186300:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/JKCategories.framework/JKCategories'>', hardenedRuntime='0'>'> to: /var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/entitlements~~~x1uP34
+2023-08-01 12:10:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '527898EE9EF6EAA8D983AE246F209038B6274735' '--entitlements' '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/entitlements~~~x1uP34' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/JKCategories.framework'
+2023-08-01 12:10:29 +0000  /var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/JKCategories.framework: replacing existing signature
+2023-08-01 12:10:29 +0000  /var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/JKCategories.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.JKCategories]
+2023-08-01 12:10:29 +0000  /usr/bin/codesign exited with 0
+2023-08-01 12:10:29 +0000  Entitlements for <IDEDistributionItem: 0x60001505dfe0; bundleID='org.cocoapods.ObjectMapper', path='<DVTFilePath:0x60003111ba30:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/ObjectMapper.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045b8de50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4b2e0; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.ObjectMapper', executablePath='<DVTFilePath:0x600029181b20:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/ObjectMapper.framework/ObjectMapper'>', hardenedRuntime='0'>'>: {
+}
+2023-08-01 12:10:29 +0000  Entitlements for <IDEDistributionItem: 0x60001505dfe0; bundleID='org.cocoapods.ObjectMapper', path='<DVTFilePath:0x60003111ba30:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/ObjectMapper.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045b8de50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce48fd0; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.ObjectMapper', executablePath='<DVTFilePath:0x600029181b20:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/ObjectMapper.framework/ObjectMapper'>', hardenedRuntime='0'>'> are: {
+}
+2023-08-01 12:10:29 +0000  Writing entitlements for <IDEDistributionItem: 0x60001505dfe0; bundleID='org.cocoapods.ObjectMapper', path='<DVTFilePath:0x60003111ba30:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/ObjectMapper.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045b8de50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4bde0; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.ObjectMapper', executablePath='<DVTFilePath:0x600029181b20:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/ObjectMapper.framework/ObjectMapper'>', hardenedRuntime='0'>'> to: /var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/entitlements~~~zgSw9a
+2023-08-01 12:10:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '527898EE9EF6EAA8D983AE246F209038B6274735' '--entitlements' '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/entitlements~~~zgSw9a' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/ObjectMapper.framework'
+2023-08-01 12:10:29 +0000  /var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/ObjectMapper.framework: replacing existing signature
+2023-08-01 12:10:29 +0000  /var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/ObjectMapper.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.ObjectMapper]
+2023-08-01 12:10:29 +0000  /usr/bin/codesign exited with 0
+2023-08-01 12:10:29 +0000  Entitlements for <IDEDistributionItem: 0x600029f24ea0; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x600031110c40:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045b8f340; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4b2e0; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x6000190337e0:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'>: {
+}
+2023-08-01 12:10:29 +0000  Entitlements for <IDEDistributionItem: 0x600029f24ea0; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x600031110c40:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045b8f340; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce48fd0; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x6000190337e0:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'> are: {
+}
+2023-08-01 12:10:29 +0000  Writing entitlements for <IDEDistributionItem: 0x600029f24ea0; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x600031110c40:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045b8f340; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4ef70; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='(null)', teamID='2S3TYJ9383', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x6000190337e0:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'> to: /var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/entitlements~~~2LwMnj
+2023-08-01 12:10:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '527898EE9EF6EAA8D983AE246F209038B6274735' '--entitlements' '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/entitlements~~~2LwMnj' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/SnapKit.framework'
+2023-08-01 12:10:29 +0000  /var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/SnapKit.framework: replacing existing signature
+2023-08-01 12:10:29 +0000  /var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/SnapKit.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.SnapKit]
+2023-08-01 12:10:29 +0000  /usr/bin/codesign exited with 0
+2023-08-01 12:10:29 +0000  Entitlements for <IDEDistributionItem: 0x600029f069a0; bundleID='com.gmx.Breath', path='<DVTFilePath:0x60003110fb10:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045b9c550; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce99d90; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='{
+    "application-identifier" = "2S3TYJ9383.com.gmx.Breath";
+    "com.apple.developer.team-identifier" = 2S3TYJ9383;
+    "get-task-allow" = 1;
+}', teamID='2S3TYJ9383', identifier='com.gmx.Breath', executablePath='<DVTFilePath:0x600029f065e0:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Breath'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "2S3TYJ9383.com.gmx.Breath";
+    "com.apple.developer.team-identifier" = 2S3TYJ9383;
+    "get-task-allow" = 0;
+}
+2023-08-01 12:10:29 +0000  Entitlements for <IDEDistributionItem: 0x600029f069a0; bundleID='com.gmx.Breath', path='<DVTFilePath:0x60003110fb10:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045b9c550; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4e520; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='{
+    "application-identifier" = "2S3TYJ9383.com.gmx.Breath";
+    "com.apple.developer.team-identifier" = 2S3TYJ9383;
+    "get-task-allow" = 1;
+}', teamID='2S3TYJ9383', identifier='com.gmx.Breath', executablePath='<DVTFilePath:0x600029f065e0:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Breath'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "2S3TYJ9383.com.gmx.Breath";
+    "com.apple.developer.team-identifier" = 2S3TYJ9383;
+    "get-task-allow" = 0;
+}
+2023-08-01 12:10:29 +0000  Writing entitlements for <IDEDistributionItem: 0x600029f069a0; bundleID='com.gmx.Breath', path='<DVTFilePath:0x60003110fb10:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600045b9c550; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60000ce4e310; name='Apple Development: 1315974868@qq.com (G576PY9D94)', hash='2C459F5458FF3F17CC71CCA8B5CCC98D50542153', serialNumber='6E02B1DAF19AA85110C5C7791450ADAF', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2023-07-11 03:37:39 +0000''>', entitlements='{
+    "application-identifier" = "2S3TYJ9383.com.gmx.Breath";
+    "com.apple.developer.team-identifier" = 2S3TYJ9383;
+    "get-task-allow" = 1;
+}', teamID='2S3TYJ9383', identifier='com.gmx.Breath', executablePath='<DVTFilePath:0x600029f065e0:'/Users/gongmengyang/Library/Developer/Xcode/Archives/2023-08-01/Breath 2023-8-1, 20.09.xcarchive/Products/Applications/Breath.app/Breath'>', hardenedRuntime='0'>'> to: /var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/entitlements~~~NCPDQX
+2023-08-01 12:10:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '527898EE9EF6EAA8D983AE246F209038B6274735' '--entitlements' '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/entitlements~~~NCPDQX' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app'
+2023-08-01 12:10:29 +0000  /var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app: replacing existing signature
+2023-08-01 12:10:29 +0000  /var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app: signed app bundle with Mach-O thin (arm64) [com.gmx.Breath]
+2023-08-01 12:10:29 +0000  /usr/bin/codesign exited with 0
+2023-08-01 12:10:29 +0000  Processing step: IDEDistributionZipODRItemStep
+2023-08-01 12:10:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-08-01 12:10:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-08-01 12:10:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-08-01 12:10:29 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-08-01 12:10:29 +0000  Processing step: IDEDistributionCreateIPAStep
+2023-08-01 12:10:29 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root' '/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Packages/Breath.ipa'
+2023-08-01 12:10:29 +0000  >>> Copying /var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root 
+2023-08-01 12:10:29 +0000  copying file ./Payload/Breath.app/_CodeSignature/CodeResources ... 
+2023-08-01 12:10:29 +0000  7311 bytes for ./Payload/Breath.app/_CodeSignature/CodeResources
+2023-08-01 12:10:29 +0000  copying file ./Payload/Breath.app/AppIcon60x60@2x.png ... 
+2023-08-01 12:10:29 +0000  3563 bytes for ./Payload/Breath.app/AppIcon60x60@2x.png
+2023-08-01 12:10:29 +0000  copying file ./Payload/Breath.app/Breath ... 
+2023-08-01 12:10:29 +0000  241360 bytes for ./Payload/Breath.app/Breath
+2023-08-01 12:10:29 +0000  copying file ./Payload/Breath.app/breath.mp3 ... 
+2023-08-01 12:10:29 +0000  3487077 bytes for ./Payload/Breath.app/breath.mp3
+2023-08-01 12:10:29 +0000  copying file ./Payload/Breath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+929 bytes for ./Payload/Breath.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/Breath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+1197 bytes for ./Payload/Breath.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/Breath.app/Base.lproj/Main.storyboardc/Info.plist ... 
+258 bytes for ./Payload/Breath.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/Breath.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2023-08-01 12:10:29 +0000  2515 bytes for ./Payload/Breath.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Breath.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2023-08-01 12:10:29 +0000  896 bytes for ./Payload/Breath.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Breath.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2023-08-01 12:10:29 +0000  258 bytes for ./Payload/Breath.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/Breath.app/Assets.car ... 
+2023-08-01 12:10:30 +0000  36939007 bytes for ./Payload/Breath.app/Assets.car
+copying file ./Payload/Breath.app/AppIcon76x76@2x~ipad.png ... 
+2023-08-01 12:10:30 +0000  4736 bytes for ./Payload/Breath.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/Breath.app/Frameworks/SnapKit.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Breath.app/Frameworks/SnapKit.framework/_CodeSignature/CodeResources
+copying file ./Payload/Breath.app/Frameworks/SnapKit.framework/SnapKit ... 
+2023-08-01 12:10:30 +0000  399616 bytes for ./Payload/Breath.app/Frameworks/SnapKit.framework/SnapKit
+copying file ./Payload/Breath.app/Frameworks/SnapKit.framework/Info.plist ... 
+2023-08-01 12:10:30 +0000  784 bytes for ./Payload/Breath.app/Frameworks/SnapKit.framework/Info.plist
+copying file ./Payload/Breath.app/Frameworks/ObjectMapper.framework/_CodeSignature/CodeResources ... 
+2023-08-01 12:10:30 +0000  1798 bytes for ./Payload/Breath.app/Frameworks/ObjectMapper.framework/_CodeSignature/CodeResources
+2023-08-01 12:10:30 +0000  copying file ./Payload/Breath.app/Frameworks/ObjectMapper.framework/ObjectMapper ... 
+2023-08-01 12:10:30 +0000  484432 bytes for ./Payload/Breath.app/Frameworks/ObjectMapper.framework/ObjectMapper
+copying file ./Payload/Breath.app/Frameworks/ObjectMapper.framework/Info.plist ... 
+2023-08-01 12:10:30 +0000  793 bytes for ./Payload/Breath.app/Frameworks/ObjectMapper.framework/Info.plist
+2023-08-01 12:10:30 +0000  copying file ./Payload/Breath.app/Frameworks/JKCategories.framework/_CodeSignature/CodeResources ... 
+2023-08-01 12:10:30 +0000  1798 bytes for ./Payload/Breath.app/Frameworks/JKCategories.framework/_CodeSignature/CodeResources
+copying file ./Payload/Breath.app/Frameworks/JKCategories.framework/JKCategories ... 
+2023-08-01 12:10:30 +0000  1337632 bytes for ./Payload/Breath.app/Frameworks/JKCategories.framework/JKCategories
+copying file ./Payload/Breath.app/Frameworks/JKCategories.framework/Info.plist ... 
+2023-08-01 12:10:30 +0000  793 bytes for ./Payload/Breath.app/Frameworks/JKCategories.framework/Info.plist
+copying file ./Payload/Breath.app/embedded.mobileprovision ... 
+2023-08-01 12:10:30 +0000  14418 bytes for ./Payload/Breath.app/embedded.mobileprovision
+copying file ./Payload/Breath.app/Info.plist ... 
+2023-08-01 12:10:30 +0000  1501 bytes for ./Payload/Breath.app/Info.plist
+copying file ./Payload/Breath.app/PkgInfo ... 
+2023-08-01 12:10:30 +0000  8 bytes for ./Payload/Breath.app/PkgInfo
+2023-08-01 12:10:30 +0000  /usr/bin/ditto exited with 0
+2023-08-01 12:10:30 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2023-08-01 12:10:30 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2023-08-01 12:10:30 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2023-08-01 12:10:30 +0000  IDEDistributionItem init <DVTFilePath:0x60003116c700:'/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/SnapKit.framework'>
+2023-08-01 12:10:30 +0000  IDEDistributionItem init <DVTFilePath:0x60003116c5b0:'/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/ObjectMapper.framework'>
+2023-08-01 12:10:30 +0000  IDEDistributionItem init <DVTFilePath:0x60003116c3f0:'/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app/Frameworks/JKCategories.framework'>
+2023-08-01 12:10:30 +0000  IDEDistributionItem init <DVTFilePath:0x60003116c690:'/var/folders/yn/7qkcjk214nz0wjzj8bml_02h0000gn/T/XcodeDistPipeline.~~~hyNb5W/Root/Payload/Breath.app'>
+2023-08-01 12:10:30 +0000  Processing step: IDEDistributionCreateManifestStep

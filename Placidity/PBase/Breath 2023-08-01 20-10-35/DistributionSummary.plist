@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Breath.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>527898EE9EF6EAA8D983AE246F209038B6274735</string>
+				<key>dateExpires</key>
+				<string>2024/7/20</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>527898EE9EF6EAA8D983AE246F209038B6274735</string>
+						<key>dateExpires</key>
+						<string>2024/7/20</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>JKCategories.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>2S3TYJ9383</string>
+						<key>name</key>
+						<string>Gong MengXiang</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.9.3</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>527898EE9EF6EAA8D983AE246F209038B6274735</string>
+						<key>dateExpires</key>
+						<string>2024/7/20</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>ObjectMapper.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>2S3TYJ9383</string>
+						<key>name</key>
+						<string>Gong MengXiang</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>4.2.0</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>527898EE9EF6EAA8D983AE246F209038B6274735</string>
+						<key>dateExpires</key>
+						<string>2024/7/20</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SnapKit.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>2S3TYJ9383</string>
+						<key>name</key>
+						<string>Gong MengXiang</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>5.6.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>2S3TYJ9383.com.gmx.Breath</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>2S3TYJ9383</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>Breath.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>a1545c7e-2ec3-4bd1-86ef-409a1cf9bb2c</string>
+				<key>dateExpires</key>
+				<string>2024/7/20</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.gmx.Breath</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>2S3TYJ9383</string>
+				<key>name</key>
+				<string>Gong MengXiang</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
